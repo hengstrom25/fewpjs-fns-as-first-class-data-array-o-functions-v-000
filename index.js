@@ -8,8 +8,9 @@ function leashDog(dogName, dogBreed) {
   return string;  
 }
 
-function walkToPark() {
-  
+function walkToPark(dogName, dogBreed) {
+  let string = `Walk ${dogName} the ${dogBreed}`;
+  return string;    
 }
 
 function throwFrisbee() {
