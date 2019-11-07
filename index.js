@@ -27,3 +27,5 @@ function unleashDog(dogName, dogBreed) {
   let string = `Unleash ${dogName} the ${dogBreed}`;
   return string;    
 }
+
+let routine = ["wakeDog", "leashDog", "walkToPark", "throwFrisbee", "walkHome", "unleashDog"]
