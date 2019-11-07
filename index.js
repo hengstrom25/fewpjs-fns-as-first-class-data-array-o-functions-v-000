@@ -18,10 +18,12 @@ function throwFrisbee(dogName, dogBreed) {
   return string;    
 }
 
-function walkHome() {
-  
+function walkHome(dogName, dogBreed) {
+  let string = `Walk home with ${dogName} the ${dogBreed}`;
+  return string;   
 }
 
-function unleashDog() {
-  
+function unleashDog(dogName, dogBreed) {
+  let string = `Unleash ${dogName} the ${dogBreed}`;
+  return string;    
 }
